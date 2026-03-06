@@ -6,12 +6,11 @@ A production-style ETL (Extract, Transform, Load) pipeline built in Python that 
 
 ```
 etl_pipeline/
-├── data/
-│   └── sales_data.csv       # Raw source data (25 records)
+├── sales_data.csv       # Raw source data (25 records)
 ├── etl_pipeline.py          # Main ETL script
 ├── sales_warehouse.db       # Output: SQLite data warehouse (auto-generated)
-├── etl_pipeline.log         # Pipeline run logs (auto-generated)
-└── README.md
+└──etl_pipeline.log         # Pipeline run logs (auto-generated)
+ 
 ```
 
 ## What It Does
