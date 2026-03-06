@@ -1,0 +1,26 @@
+2026-03-04 22:44:35,685 [INFO] ==================================================
+2026-03-04 22:44:35,686 [INFO] ETL PIPELINE STARTED
+2026-03-04 22:44:35,686 [INFO] ==================================================
+2026-03-04 22:44:35,687 [INFO] [EXTRACT] Reading file: sales_data.csv
+2026-03-04 22:44:35,797 [INFO] [EXTRACT] Loaded 25 raw rows.
+2026-03-04 22:44:35,798 [INFO] [TRANSFORM] Starting validation and transformation...
+2026-03-04 22:44:35,821 [INFO] [TRANSFORM] Valid: 23 | Rejected: 2
+2026-03-04 22:44:35,821 [INFO] [LOAD] Connecting to database: sales_warehouse.db
+2026-03-04 22:44:37,124 [INFO] [LOAD] Inserted 23 rows into `orders`.
+2026-03-04 22:44:37,431 [INFO] [LOAD] Database committed and closed.
+2026-03-04 22:44:37,461 [INFO] ETL PIPELINE COMPLETED in 1.77s
+2026-03-04 22:47:41,536 [INFO] ==================================================
+2026-03-04 22:47:41,536 [INFO] ETL PIPELINE STARTED
+2026-03-04 22:47:41,536 [INFO] ==================================================
+2026-03-04 22:47:41,536 [INFO] [EXTRACT] Reading file: data/sales_data.csv
+2026-03-04 22:48:07,305 [INFO] ==================================================
+2026-03-04 22:48:07,305 [INFO] ETL PIPELINE STARTED
+2026-03-04 22:48:07,305 [INFO] ==================================================
+2026-03-04 22:48:07,305 [INFO] [EXTRACT] Reading file: sales_data.csv
+2026-03-04 22:48:07,305 [INFO] [EXTRACT] Loaded 25 raw rows.
+2026-03-04 22:48:07,305 [INFO] [TRANSFORM] Starting validation and transformation...
+2026-03-04 22:48:07,321 [INFO] [TRANSFORM] Valid: 23 | Rejected: 2
+2026-03-04 22:48:07,321 [INFO] [LOAD] Connecting to database: sales_warehouse.db
+2026-03-04 22:48:07,368 [INFO] [LOAD] Inserted 23 rows into `orders`.
+2026-03-04 22:48:07,993 [INFO] [LOAD] Database committed and closed.
+2026-03-04 22:48:08,024 [INFO] ETL PIPELINE COMPLETED in 0.72s
